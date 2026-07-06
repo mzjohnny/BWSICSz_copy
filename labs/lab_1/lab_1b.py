@@ -24,7 +24,7 @@ def simple_calculator(operation: str, num1: float, num2: float) -> float:
     """
 
     if operation == "add":
-        return num1 + num2
+        return num1 + num2+1
     elif operation == "subtract":
         return num1 - num2
     elif operation == "multiply":
