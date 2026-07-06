@@ -64,7 +64,6 @@ def request_santized_operation() -> str:
            if operation in operation_set:
                return operation 
            else:
-               print(f"Invalid operation. Please choose from 'add', 'subtract', 'multiply', or 'divide'")
 
 def main():
     
